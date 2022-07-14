@@ -14,7 +14,7 @@ trigger:
         steps:
         - task: Docker@2
           displayName: Build an image
-          inputs:
-            repository: $(imageName)
+          inputs:deepa99
+            repository: 
             command: build
             Dockerfile: app/Dockerfile
